@@ -1,0 +1,26 @@
+{
+  "name": "ibc-token-info",
+  "version": "0.0.1",
+  "description": "a simple packages to get ibc token info from imperator API",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "",
+  "repository": {
+    "url": "https://github.com/Tnodes/ibc-token-info"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": ["ibc", "cosmos", "API"],
+  "author": "tnodes",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
