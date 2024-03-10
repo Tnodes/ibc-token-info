@@ -1,6 +1,11 @@
 # IBC Token Info
 a simple packages to get ibc token info from imperator API
 
+# Install Packages
+```
+npm i @tnodes/ibc-token-info
+```
+
 # Example-Usage
 ```
 import { fetchTokenData, TokenData } from 'ibc-token-info';
